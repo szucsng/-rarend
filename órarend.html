@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Órarend</title>
+<style>
+    /* Táblázat stílusok */
+table.schedule {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
 
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Tantárgy színek */
+.project { background-color: #795548; color: white; }  /* Projektmunka */
+.math { background-color: #4CAF50; color: white; }      /* Matematika */
+.literature { background-color: #2196F3; color: white; } /* Irodalom */
+.pe { background-color: #FF9800; color: white; }        /* Testnevelés */
+.history { background-color: #9C27B0; color: white; }   /* Történelem */
+.english { background-color: #F44336; color: white; }   /* Angol */
+.it { background-color: #3F51B5; color: white; }        /* Informatika */
+.science { background-color: #009688; color: white; }   /* Természetismeret */
+.programming { background-color: #673AB7; color: white; } /* Programozás */
+.culture { background-color: #FFEB3B; color: black; }   /* Digitális kultúra */
+.classmeeting { background-color: #9E9E9E; color: white; } /* Osztályfőnöki */
+
+</style>
+</head>
+<body>
+  <table class="schedule">
+    <thead>
+      <tr>
+        <th>Időpont</th>
+        <th>Hétfő</th>
+        <th>Kedd</th>
+        <th>Szerda</th>
+        <th>Csütörtök</th>
+        <th>Péntek</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>08:00</td>
+        <td class="project">IKT projektmunka</td>
+        <td class="pe">Testnevelés</td>
+        <td class="literature">Irodalom</td>
+        <td class="english">Angol</td>
+        <td class="english">Angol</td>
+      </tr>
+      <tr>
+        <td>09:00</td>
+        <td class="math">Matematika</td>
+        <td class="literature">Irodalom</td>
+        <td class="pe">Testnevelés</td>
+        <td class="history">Történelem</td>
+        <td class="culture">Digitális kultúra</td>
+      </tr>
+      <tr>
+        <td>10:00</td>
+        <td class="english">Angol</td>
+        <td class="english">Angol</td>
+        <td class="science">Természetismeret</td>
+        <td class="project">IKT projektmunka</td>
+        <td class="math">Matematika</td>
+      </tr>
+      <tr>
+        <td>11:00</td>
+        <td class="programming">Programozás</td>
+        <td class="classmeeting">Osztályfőnöki</td>
+        <td class="math">Matematika</td>
+        <td class="math">Matematika</td>
+        <td class="history">Történelem</td>
+      </tr>
+      <tr>
+        <td>12:00</td>
+        <td class="programming">Programozás</td>
+        <td class="it">Informatika</td>
+        <td class="literature">Irodalom</td>
+        <td class="science">Természetismeret</td>
+        <td class="science">Természetismeret</td>
+      </tr>
+      <tr>
+        <td>13:00</td>
+        <td class="pe">Testnevelés</td>
+        <td class="it">Informatika</td>
+        <td class="it">Informatika</td>
+        <td class="english">Angol</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>14:00</td>
+        <td class="literature">Irodalom</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
